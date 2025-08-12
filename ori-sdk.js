@@ -13,7 +13,7 @@
       utm,
       ref: document.referrer,
     };
-    fetch('http://localhost:5678/webhook/ori-sessions', {
+    fetch('http://localhost:5678/webhook-test/ori-sessions', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify(data)
