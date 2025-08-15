@@ -1,6 +1,6 @@
 <script>
 (function(w,d){
-  const API = 'http://localhost:5678/webhook-test/ori-sessions'; // <-- troque
+  const API = 'https://n8n.nalk.com.br/webhook-test/ori-sessions'; // <-- troque
   const ctxKey = 'ori_ctx';
   const sidKey = 'ori_sid';
 
